@@ -10,7 +10,7 @@ nome VARCHAR2(100)
 
 CREATE TABLE audiobook
 (id_audiobook NUMBER CONSTRAINT pk_audiobook PRIMARY KEY,
-titulo VARCHAR2(256),
+titulo VARCHAR2(110),
 idioma VARCHAR2(20),
 duracao NUMBER
 );
@@ -58,7 +58,7 @@ CONSTRAINT pk_escreveu PRIMARY KEY(id_autor, id_audiobook)
 
 CREATE TABLE assinante
  (id_usuario NUMBER CONSTRAINT pk_assinante PRIMARY KEY,
- cartao_credido VARCHAR(30),
+ cartao_credito VARCHAR2(30),
  data_inicio_assinatura DATE,
  dia_cobranca NUMBER
 );
