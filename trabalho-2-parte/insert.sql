@@ -2,11 +2,11 @@
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Audiolivros Grátis');
+(s_categoria.NEXTVAL, 'Audiolivros GrÃ¡tis');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Administração');
+(s_categoria.NEXTVAL, 'AdministraÃ§Ã£o');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
@@ -18,11 +18,11 @@ INSERT INTO categoria
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Ciências Exatas');
+(s_categoria.NEXTVAL, 'CiÃªncias Exatas');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Ciências Humanas');
+(s_categoria.NEXTVAL, 'CiÃªncias Humanas');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
@@ -38,11 +38,11 @@ INSERT INTO categoria
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Didáticos');
+(s_categoria.NEXTVAL, 'DidÃ¡ticos');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Dicionários e Manuais de Conversação');
+(s_categoria.NEXTVAL, 'DicionÃ¡rios e Manuais de ConversaÃ§Ã£o');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
@@ -70,15 +70,15 @@ INSERT INTO categoria
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Geografia e História');
+(s_categoria.NEXTVAL, 'Geografia e HistÃ³ria');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Informática');
+(s_categoria.NEXTVAL, 'InformÃ¡tica');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Linguística');
+(s_categoria.NEXTVAL, 'LinguÃ­stica');
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
@@ -102,313 +102,313 @@ INSERT INTO categoria
 
 INSERT INTO categoria
 (id_categoria, nome) VALUES
-(s_categoria.NEXTVAL, 'Religião');
+(s_categoria.NEXTVAL, 'ReligiÃ£o');
 
 /*Inserts tabela audiobook, */
 
-/*Administração*/
+/*AdministraÃ§Ã£o*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Superdicas para Vender e Negociar Bem', 'Português', 195);
+(s_audiobook.NEXTVAL, 'Superdicas para Vender e Negociar Bem', 'PortuguÃªs', 195);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Educação Financeira na Aposentadoria', 'Português', 163);
+(s_audiobook.NEXTVAL, 'EducaÃ§Ã£o Financeira na Aposentadoria', 'PortuguÃªs', 163);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Empreendedorismo Corporativo', 'Português', 167);
+(s_audiobook.NEXTVAL, 'Empreendedorismo Corporativo', 'PortuguÃªs', 167);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Paixão Por Vendas Não Tem Idade', 'Português', 102);
+(s_audiobook.NEXTVAL, 'PaixÃ£o Por Vendas NÃ£o Tem Idade', 'PortuguÃªs', 102);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Superdicas para Empreender seu Próprio Negócio', 'Português', 202);
+(s_audiobook.NEXTVAL, 'Superdicas para Empreender seu PrÃ³prio NegÃ³cio', 'PortuguÃªs', 202);
 
 /*Artes*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Nascimento da Ópera', 'Português', 187);
+(s_audiobook.NEXTVAL, 'O Nascimento da Ã“pera', 'PortuguÃªs', 187);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Caminho das Pedras - Reflexões de uma Atriz', 'Português', 100);
+(s_audiobook.NEXTVAL, 'Caminho das Pedras - ReflexÃµes de uma Atriz', 'PortuguÃªs', 100);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Giuseppe Verdi - Vida e Obra', 'Português', 102);
+(s_audiobook.NEXTVAL, 'Giuseppe Verdi - Vida e Obra', 'PortuguÃªs', 102);
 
 /*Auto Ajuda*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'A Teoria Geral dos Signos', 'Português', 132);
+(s_audiobook.NEXTVAL, 'A Teoria Geral dos Signos', 'PortuguÃªs', 132);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Sem Medo de Viver', 'Português', 232);
+(s_audiobook.NEXTVAL, 'Sem Medo de Viver', 'PortuguÃªs', 232);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Segredo', 'Português', 132);
+(s_audiobook.NEXTVAL, 'O Segredo', 'PortuguÃªs', 132);
 
-/*Ciências Exatas*/
-
-INSERT INTO audiobook
-(id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Raciocínio Lógicos', 'Português', 162);
+/*CiÃªncias Exatas*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Matemática', 'Português', 122);
+(s_audiobook.NEXTVAL, 'RaciocÃ­nio LÃ³gicos', 'PortuguÃªs', 162);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Grandes Momentos da História da Matemática', 'Português', 152);
-
-/*Ciências Humanas*/
+(s_audiobook.NEXTVAL, 'MatemÃ¡tica', 'PortuguÃªs', 122);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Um Ensaio Sobre o Belo, o Nobre e o Justo, na Visão dos Antigos', 'Português', 176);
+(s_audiobook.NEXTVAL, 'Grandes Momentos da HistÃ³ria da MatemÃ¡tica', 'PortuguÃªs', 152);
+
+/*CiÃªncias Humanas*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Apologia de Sócrates', 'Português', 156);
+(s_audiobook.NEXTVAL, 'Um Ensaio Sobre o Belo, o Nobre e o Justo, na VisÃ£o dos Antigos', 'PortuguÃªs', 176);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Mistério das Bolas de Gude', 'Português', 265);
+(s_audiobook.NEXTVAL, 'Apologia de SÃ³crates', 'PortuguÃªs', 156);
+
+INSERT INTO audiobook
+(id_audiobook, titulo, idioma, duracao) VALUES
+(s_audiobook.NEXTVAL, 'O MistÃ©rio das Bolas de Gude', 'PortuguÃªs', 265);
 
 
 /*Contabilidade*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Auditoria', 'Português', 145);
+(s_audiobook.NEXTVAL, 'Auditoria', 'PortuguÃªs', 145);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Contabilidade Geral', 'Português', 162);
+(s_audiobook.NEXTVAL, 'Contabilidade Geral', 'PortuguÃªs', 162);
 
 /*Gastronomia*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Magra e Poderosa', 'Português', 182);
+(s_audiobook.NEXTVAL, 'Magra e Poderosa', 'PortuguÃªs', 182);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Cachaças - Bebendo e Aprendendo - Guia Prático de Degustação', 'Português', 196);
+(s_audiobook.NEXTVAL, 'CachaÃ§as - Bebendo e Aprendendo - Guia PrÃ¡tico de DegustaÃ§Ã£o', 'PortuguÃªs', 196);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Nem Leigo Nem Expert: Manual Básico do Mundo do Vinho', 'Português', 186);
+(s_audiobook.NEXTVAL, 'Nem Leigo Nem Expert: Manual BÃ¡sico do Mundo do Vinho', 'PortuguÃªs', 186);
 
 /*Cursos e Idiomas*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Italiano Para Leigos', 'Português', 154);
+(s_audiobook.NEXTVAL, 'Italiano Para Leigos', 'PortuguÃªs', 154);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Inglês Para o Dia-a-dia', 'Português', 124);
+(s_audiobook.NEXTVAL, 'InglÃªs Para o Dia-a-dia', 'PortuguÃªs', 124);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Inglês Jurídico para Profissional', 'Português', 276);
+(s_audiobook.NEXTVAL, 'InglÃªs JurÃ­dico para Profissional', 'PortuguÃªs', 276);
 
 
-/*Didáticos*/
-
-INSERT INTO audiobook
-(id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Edição antiga - Novo Telecurso - Ensino Médio - Biologia - Vol. 4', 'Português', 124);
+/*DidÃ¡ticos*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Novo Telecurso - Ensino Médio - Química - Vol. 5', 'Português', 132);
+(s_audiobook.NEXTVAL, 'EdiÃ§Ã£o antiga - Novo Telecurso - Ensino MÃ©dio - Biologia - Vol. 4', 'PortuguÃªs', 124);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Edição antiga - Novo Telecurso - Ensino Médio - Biologia - Vol. 1', 'Português', 178);
-
-/*Dicionários e Manuais de Conversação*/
+(s_audiobook.NEXTVAL, 'Novo Telecurso - Ensino MÃ©dio - QuÃ­mica - Vol. 5', 'PortuguÃªs', 132);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Dicionário de Politica', 'Português', 168);
+(s_audiobook.NEXTVAL, 'EdiÃ§Ã£o antiga - Novo Telecurso - Ensino MÃ©dio - Biologia - Vol. 1', 'PortuguÃªs', 178);
+
+/*DicionÃ¡rios e Manuais de ConversaÃ§Ã£o*/
+
+INSERT INTO audiobook
+(id_audiobook, titulo, idioma, duracao) VALUES
+(s_audiobook.NEXTVAL, 'DicionÃ¡rio de Politica', 'PortuguÃªs', 168);
 
 /*Direito*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Tudo o que Você Precisa Ouvir Sobre - Direito do Consumidor', 'Português', 192);
+(s_audiobook.NEXTVAL, 'Tudo o que VocÃª Precisa Ouvir Sobre - Direito do Consumidor', 'PortuguÃªs', 192);
 
 /*Economia*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Economia', 'Português', 135);
+(s_audiobook.NEXTVAL, 'Economia', 'PortuguÃªs', 135);
 
 /*Engenharia e Tecnologia*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Mundo do Charuto', 'Português', 167);
+(s_audiobook.NEXTVAL, 'O Mundo do Charuto', 'PortuguÃªs', 167);
 
 /*Esoterismo*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Que Você Precisa Saber Sobre Maçonaria', 'Português', 187);
+(s_audiobook.NEXTVAL, 'O Que VocÃª Precisa Saber Sobre MaÃ§onaria', 'PortuguÃªs', 187);
 
 /*Espiritualismo*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Entrevistando Chico Xavier', 'Português', 198);
+(s_audiobook.NEXTVAL, 'Entrevistando Chico Xavier', 'PortuguÃªs', 198);
 
 /*Esportes e Lazer*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Febre de Bola', 'Português', 201);
+(s_audiobook.NEXTVAL, 'Febre de Bola', 'PortuguÃªs', 201);
 
-/*Geografia e História*/
-
-INSERT INTO audiobook
-(id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Hic ! Stórias - Os Maiores Porres da História da Humanidade', 'Português', 321);
+/*Geografia e HistÃ³ria*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, '1808', 'Português', 268);
-
-/*Informática*/
+(s_audiobook.NEXTVAL, 'Hic ! StÃ³rias - Os Maiores Porres da HistÃ³ria da Humanidade', 'PortuguÃªs', 321);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Informática - Módulo 2', 'Português', 222);
+(s_audiobook.NEXTVAL, '1808', 'PortuguÃªs', 268);
+
+/*InformÃ¡tica*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Informática - Módulo 1 - Hardware , Windows e Internet', 'Português', 111);
-
-/*Linguística*/
+(s_audiobook.NEXTVAL, 'InformÃ¡tica - MÃ³dulo 2', 'PortuguÃªs', 222);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Superdicas para Escrever Bem Diferentes Tipos de Textos', 'Português', 234);
+(s_audiobook.NEXTVAL, 'InformÃ¡tica - MÃ³dulo 1 - Hardware , Windows e Internet', 'PortuguÃªs', 111);
+
+/*LinguÃ­stica*/
+
+INSERT INTO audiobook
+(id_audiobook, titulo, idioma, duracao) VALUES
+(s_audiobook.NEXTVAL, 'Superdicas para Escrever Bem Diferentes Tipos de Textos', 'PortuguÃªs', 234);
 
 /*Literatura Estrangeira*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'A Aventuras de Tom Sawyer e Outras Histórias', 'Português', 123);
+(s_audiobook.NEXTVAL, 'A Aventuras de Tom Sawyer e Outras HistÃ³rias', 'PortuguÃªs', 123);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Sherlock Holmes - o Último Adeus e Outras Histórias', 'Português', 156);
+(s_audiobook.NEXTVAL, 'Sherlock Holmes - o Ãšltimo Adeus e Outras HistÃ³rias', 'PortuguÃªs', 156);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Sherlock Holmes - o Cão Dos Baskervilles e Outras Histórias', 'Português', 267);
+(s_audiobook.NEXTVAL, 'Sherlock Holmes - o CÃ£o Dos Baskervilles e Outras HistÃ³rias', 'PortuguÃªs', 267);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Contos Fantásticos de Julio Verne', 'Português', 97);
+(s_audiobook.NEXTVAL, 'Contos FantÃ¡sticos de Julio Verne', 'PortuguÃªs', 97);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Drácula', 'Português', 188);
+(s_audiobook.NEXTVAL, 'DrÃ¡cula', 'PortuguÃªs', 188);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Quando Nietzsche Chorou', 'Português', 233);
+(s_audiobook.NEXTVAL, 'Quando Nietzsche Chorou', 'PortuguÃªs', 233);
 
 /*Literatura Infanto Juvenil*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Bichano - o Gato Xadrez', 'Português', 165);
+(s_audiobook.NEXTVAL, 'Bichano - o Gato Xadrez', 'PortuguÃªs', 165);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Aventuras do Passarinho Rafa', 'Português', 210);
+(s_audiobook.NEXTVAL, 'Aventuras do Passarinho Rafa', 'PortuguÃªs', 210);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Guarda-roupa de Histórias', 'Português', 131);
+(s_audiobook.NEXTVAL, 'Guarda-roupa de HistÃ³rias', 'PortuguÃªs', 131);
 
 /*Literatura Nacional*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Triste Fim de Policarpo Quaresma', 'Português', 202);
+(s_audiobook.NEXTVAL, 'O Triste Fim de Policarpo Quaresma', 'PortuguÃªs', 202);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Vale Tudo - Tim Maia', 'Português', 156);
+(s_audiobook.NEXTVAL, 'Vale Tudo - Tim Maia', 'PortuguÃªs', 156);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'A Moreninha', 'Português', 154);
+(s_audiobook.NEXTVAL, 'A Moreninha', 'PortuguÃªs', 154);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'A Escrava Isaura', 'Português', 211);
+(s_audiobook.NEXTVAL, 'A Escrava Isaura', 'PortuguÃªs', 211);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Auto da Compadecida', 'Português', 123);
+(s_audiobook.NEXTVAL, 'Auto da Compadecida', 'PortuguÃªs', 123);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Dom Casmurro', 'Português', 234);
+(s_audiobook.NEXTVAL, 'Dom Casmurro', 'PortuguÃªs', 234);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'O Alienista', 'Português', 202);
+(s_audiobook.NEXTVAL, 'O Alienista', 'PortuguÃªs', 202);
 
 /*Medicina*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Cigarro: Um Adeus Possível', 'Português', 131);
+(s_audiobook.NEXTVAL, 'Cigarro: Um Adeus PossÃ­vel', 'PortuguÃªs', 131);
 
 /*Psicologia*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Torne Real seu Potencial', 'Português', 202);
+(s_audiobook.NEXTVAL, 'Torne Real seu Potencial', 'PortuguÃªs', 202);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Tudo o que Você Precisa Ouvir Sobre - Drogas', 'Português', 112);
+(s_audiobook.NEXTVAL, 'Tudo o que VocÃª Precisa Ouvir Sobre - Drogas', 'PortuguÃªs', 112);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'Jogos de Azar - Análise do Impacto Psíquico e Sociofamiliar do Jogo Patológico a Partir das Vivência', 'Português', 170);
+(s_audiobook.NEXTVAL, 'Jogos de Azar - AnÃ¡lise do Impacto PsÃ­quico e Sociofamiliar do Jogo PatolÃ³gico a Partir das VivÃªncia', 'PortuguÃªs', 170);
 
-/*Religião*/
-
-INSERT INTO audiobook
-(id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'o Maior Discurso de Cristo - Reflexões Sobre o Sermão da Montanha', 'Português', 172);
+/*ReligiÃ£o*/
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, 'A Divina Relação do Inferno', 'Português', 131);
+(s_audiobook.NEXTVAL, 'o Maior Discurso de Cristo - ReflexÃµes Sobre o SermÃ£o da Montanha', 'PortuguÃªs', 172);
 
 INSERT INTO audiobook
 (id_audiobook, titulo, idioma, duracao) VALUES
-(s_audiobook.NEXTVAL, '3:16 a Mensagem de Deus', 'Português', 170);
+(s_audiobook.NEXTVAL, 'A Divina RelaÃ§Ã£o do Inferno', 'PortuguÃªs', 131);
+
+INSERT INTO audiobook
+(id_audiobook, titulo, idioma, duracao) VALUES
+(s_audiobook.NEXTVAL, '3:16 a Mensagem de Deus', 'PortuguÃªs', 170);
 
 
 /*Inserts Pertence*/
@@ -670,7 +670,7 @@ INSERT INTO pertence
 
 INSERT INTO autor
 (id_autor, nome) VALUES
-(s_autor.NEXTVAL, 'Carlos Alberto Júlio');
+(s_autor.NEXTVAL, 'Carlos Alberto JÃºlio');
 
 INSERT INTO autor
 (id_autor, nome) VALUES
@@ -682,7 +682,7 @@ INSERT INTO autor
 
 INSERT INTO autor
 (id_autor, nome) VALUES
-(s_autor.NEXTVAL, 'Robervânia Albuquerq');
+(s_autor.NEXTVAL, 'RobervÃ¢nia Albuquerq');
 
 INSERT INTO autor
 (id_autor, nome) VALUES
@@ -730,7 +730,7 @@ INSERT INTO autor
 
 INSERT INTO autor
 (id_autor, nome) VALUES
-(s_autor.NEXTVAL, 'Platão');
+(s_autor.NEXTVAL, 'PlatÃ£o');
 
 INSERT INTO autor
 (id_autor, nome) VALUES
@@ -758,7 +758,7 @@ INSERT INTO autor
 
 INSERT INTO autor
 (id_autor, nome) VALUES
-(s_autor.NEXTVAL, 'Didú Russo');
+(s_autor.NEXTVAL, 'DidÃº Russo');
 
 INSERT INTO autor
 (id_autor, nome) VALUES
@@ -818,7 +818,7 @@ INSERT INTO autor
 
 INSERT INTO autor
 (id_autor, nome) VALUES
-(s_autor.NEXTVAL, 'Cláudia Merquior');
+(s_autor.NEXTVAL, 'ClÃ¡udia Merquior');
 
 INSERT INTO autor
 (id_autor, nome) VALUES
@@ -878,7 +878,7 @@ INSERT INTO autor
 
 INSERT INTO autor
 (id_autor, nome) VALUES
-(s_autor.NEXTVAL, 'Bernardo Guimarães');
+(s_autor.NEXTVAL, 'Bernardo GuimarÃ£es');
 
 INSERT INTO autor
 (id_autor, nome) VALUES
@@ -1197,7 +1197,7 @@ INSERT INTO narrador
 
 INSERT INTO narrador
 (id_narrador, nome) VALUES
-(s_narrador.NEXTVAL, 'Fabrício Nunes');
+(s_narrador.NEXTVAL, 'FabrÃ­cio Nunes');
 
 INSERT INTO narrador
 (id_narrador, nome) VALUES
@@ -1465,15 +1465,15 @@ INSERT INTO narra
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
-(s_usuario.NEXTVAL, 'Márcia Julia Porto', to_date('25/06/1978', 'dd/mm/yyyy') ,'mmarciajuliaporto@brws.com.br', 'Brasil', '51988695570', 'cu3sXie3uX');
+(s_usuario.NEXTVAL, 'MÃ¡rcia Julia Porto', to_date('25/06/1978', 'dd/mm/yyyy') ,'mmarciajuliaporto@brws.com.br', 'Brasil', '51988695570', 'cu3sXie3uX');
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
-(s_usuario.NEXTVAL, 'Yuri Tomás Levi Fernandes', to_date('21/09/1986', 'dd/mm/yyyy'), 'yuritomaslevifernandes@fundasa.com.br','Brasil', '51999319152', 'EdwfD0cDTK');
+(s_usuario.NEXTVAL, 'Yuri TomÃ¡s Levi Fernandes', to_date('21/09/1986', 'dd/mm/yyyy'), 'yuritomaslevifernandes@fundasa.com.br','Brasil', '51999319152', 'EdwfD0cDTK');
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
-(s_usuario.NEXTVAL, 'Victor Edson Fogaça', to_date('27/06/2001', 'dd/mm/yyyy'), 'victoredsonfogaca@itelefonica.com.br', 'Brasil', '51993775919', 'SRfORmNCK6');
+(s_usuario.NEXTVAL, 'Victor Edson FogaÃ§a', to_date('27/06/2001', 'dd/mm/yyyy'), 'victoredsonfogaca@itelefonica.com.br', 'Brasil', '51993775919', 'SRfORmNCK6');
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
@@ -1481,7 +1481,7 @@ INSERT INTO usuario
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
-(s_usuario.NEXTVAL, 'Rita Amanda Maitê dos Santos', to_date('10/04/1997', 'dd/mm/yyyy'), 'rritaamandamaitedossantos@eletrolexeng.com.br', 'Brasil', '51987382660', 'D1C4i78HXY');
+(s_usuario.NEXTVAL, 'Rita Amanda MaitÃª dos Santos', to_date('10/04/1997', 'dd/mm/yyyy'), 'rritaamandamaitedossantos@eletrolexeng.com.br', 'Brasil', '51987382660', 'D1C4i78HXY');
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
@@ -1501,7 +1501,22 @@ INSERT INTO usuario
 
 INSERT INTO usuario
 (id_usuario, nome, data_nascimento, email, pais, telefone, senha) VALUES
-(s_usuario.NEXTVAL, 'Márcio Otávio André da Conceição', to_date('25/10/2004', 'dd/mm/yyyy'), 'marciootavioandredaconceicao@dep.ufscar.br', 'Brasil', '51993867375','JC7DAGUz6m');
+(s_usuario.NEXTVAL, 'MÃ¡rcio OtÃ¡vio AndrÃ© da ConceiÃ§Ã£o', to_date('25/10/2004', 'dd/mm/yyyy'), 'marciootavioandredaconceicao@dep.ufscar.br', 'Brasil', '51993867375','JC7DAGUz6m');
 
+/*Insert Assinante*/
 
+INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
+values (11, '5331 0891 6138 4633' , to_date('26/07/2019','dd/mm/yyyy') , 28 )
+
+INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
+values (12, '5331 0891 6138 4530' , to_date('12/11/2018','dd/mm/yyyy') , 15 )
+
+INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
+values (14, '5331 0891 6138 4109' , to_date('16/12/2017','dd/mm/yyyy') , 18 )
+
+INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
+values (15, '5331 0891 6138 2345' , to_date('21/02/2016','dd/mm/yyyy') , 23 )
+
+INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
+values (16, '5331 0891 6138 2675' , to_date('27/08/2017','dd/mm/yyyy') , 27 )
 
