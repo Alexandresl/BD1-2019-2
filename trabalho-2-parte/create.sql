@@ -58,11 +58,7 @@ CONSTRAINT pk_escreveu PRIMARY KEY(id_autor, id_audiobook)
 
 CREATE TABLE assinante
  (id_usuario NUMBER CONSTRAINT pk_assinante PRIMARY KEY,
-<<<<<<< HEAD
  cartao_credito VARCHAR2(30),
-=======
- cartao_credito VARCHAR(30),
->>>>>>> upstream/master
  data_inicio_assinatura DATE,
  dia_cobranca NUMBER
 );
