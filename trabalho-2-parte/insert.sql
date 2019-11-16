@@ -1525,4 +1525,56 @@ INSERT INTO assinante
 (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
 (06, '5331 0891 6138 2675' , to_date('27/08/2017','dd/mm/yyyy') , 27 );
 
+<<<<<<< HEAD
+=======
+/*Insert ouviu*/
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(6 , 2 , 94 ,to_date('03/08/2019 15:00 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(8 , 2 , 180 ,to_date('03/10/2019 16:00 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(56 , 2 , 94 ,to_date('12/08/2019 14:40 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(7 , 2 , 94 ,to_date('06/08/2019 15:27 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(6 , 7 , 94 ,to_date('03/09/2019 19:00 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(33 , 7 , 180 ,to_date('03/10/2019 18:00 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(1 , 5 , 85 ,to_date('12/11/2017 14:40 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(27 , 5 , 94 ,to_date('02/04/2018 15:27 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(51 , 4 , 20 ,to_date('24/09/2019 19:00 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(43 , 2 , 260 ,to_date('03/05/2018 23:00 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(31 , 1 , 49 ,to_date('12/11/2017 14:40 ','dd/mm/yyyy hh24:mi' ));
+
+INSERT INTO ouviu
+(id_audiobook, id_usuario, total_escutado , data_hora) VALUES
+(29 , 4 , 192 ,to_date('02/06/2018 15:27 ','dd/mm/yyyy hh24:mi' ));
+
+>>>>>>> upstream/master
 
