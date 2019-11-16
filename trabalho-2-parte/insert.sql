@@ -1505,18 +1505,23 @@ INSERT INTO usuario
 
 /*Insert Assinante*/
 
-INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
-values (11, '5331 0891 6138 4633' , to_date('26/07/2019','dd/mm/yyyy') , 28 )
+INSERT INTO assinante 
+(id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
+(01, '5331 0891 6138 4633' , to_date('26/07/2019','dd/mm/yyyy') , 28 );
 
-INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
-values (12, '5331 0891 6138 4530' , to_date('12/11/2018','dd/mm/yyyy') , 15 )
+INSERT INTO assinante 
+(id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
+(02, '5331 0891 6138 4530' , to_date('12/11/2018','dd/mm/yyyy') , 15 );
 
-INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
-values (14, '5331 0891 6138 4109' , to_date('16/12/2017','dd/mm/yyyy') , 18 )
+INSERT INTO assinante 
+(id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
+(04, '5331 0891 6138 4109' , to_date('16/12/2017','dd/mm/yyyy') , 18 );
 
-INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
-values (15, '5331 0891 6138 2345' , to_date('21/02/2016','dd/mm/yyyy') , 23 )
+INSERT INTO assinante
+(id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
+(05, '5331 0891 6138 2345' , to_date('21/02/2016','dd/mm/yyyy') , 23 );
 
-INSERT INTO assinante (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca)
-values (16, '5331 0891 6138 2675' , to_date('27/08/2017','dd/mm/yyyy') , 27 )
+INSERT INTO assinante 
+(id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
+(06, '5331 0891 6138 2675' , to_date('27/08/2017','dd/mm/yyyy') , 27 );
 
