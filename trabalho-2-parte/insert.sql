@@ -1525,8 +1525,6 @@ INSERT INTO assinante
 (id_usuario, cartao_credito, data_inicio_assinatura, dia_cobranca) VALUES
 (06, '5331 0891 6138 2675' , to_date('27/08/2017','dd/mm/yyyy') , 27 );
 
-<<<<<<< HEAD
-=======
 /*Insert ouviu*/
 INSERT INTO ouviu
 (id_audiobook, id_usuario, total_escutado , data_hora) VALUES
@@ -1575,6 +1573,4 @@ INSERT INTO ouviu
 INSERT INTO ouviu
 (id_audiobook, id_usuario, total_escutado , data_hora) VALUES
 (29 , 4 , 192 ,to_date('02/06/2018 15:27 ','dd/mm/yyyy hh24:mi' ));
-
->>>>>>> upstream/master
 
